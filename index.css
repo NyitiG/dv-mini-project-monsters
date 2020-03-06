@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* utf-8 */
+
+/* body settings */
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #111;
+  background-color: #fff;
+}
+
+#logo {
+  margin-left: 46.5%;
+  margin-top: 5%;
+  height: 100px;
+  width: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 41px;
+  
+}
+
+p {margin-left: 37.5%;}
+
+#create_monsters {
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  padding: 10px;
+  border: 1px solid #111;
+  display: block;
+}
+
+#arrow_left {
+  margin-left: 23%;
+  padding: 0px;
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+
+#elemental_icon {
+  margin-left: 2px;
+  margin-right: 2px;
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+
+#arrow_right {
+  margin-right: auto;
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+
+#create_monsters_input {
+  margin-top: 5px;
+  margin-left: 10%;
+}
+
+#img_attack {
+  margin-left: 10%;
+  /* margin-top:10px; */
+  display: inline;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+#input_attack {
+  display: inline;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 30px;
+}
+
+#img_defense {
+  margin-left: 20%;
+  /* margin-top:10px; */
+  display: inline;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+#input_defense {
+  display: inline;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 30px;
+}
+
+#button001 {
+  margin-left: 40%;
+  margin-top: 10px;
+}
+
+#form1 {margin-bottom: 15px;}
+
+#monster_search {
+  margin-left: 37.5%;
+}
+
+#monster_list {
+  margin-top: 15px;
+  /* margin-left: 37.5%;
+  margin-right: 37.5%;
+  padding: 10px;
+  border: 1px solid #111; */
+  display: block;
+  visibility: hidden;
+}
+
+.monsterlistclass {
+
+  margin-left: 37.5%;
+  margin-right: 37.5%;
+  padding: 10px 10px 5px 10px;
+  border: 1px solid #111;
+  display: block;
+  height: 65px;
+}
+
+.monsterlistelementalimg {
+  margin-left: 5px;
+  /* margin-top: 10px; */
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+  float:left;
+}
+
+.monsterdata {
+height: 50px;
+margin-left: 55px;
+margin-right:0px;
+position:relative;
+top:-15px;
+}
+
+.monsterdataparag {
+  height:50px;
+  margin-left: 5px;
+}
+
+.monsterlistimg {
+  margin-top:10px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.monsterlistspan {
+  margin-top: 15px;
+  margin-right: 15px;
+  position:relative;
+  top:4px;
+  font-size: 10px;
+  vertical-align:middle;
+}
+
+.monsterlisteraseimg {
+  width: 30px;
+  height: 30px;
+  position:relative;
+  left:35%;
+  top:-5px;
+}
+
+/* Készült: 2020.02.29
+ készítette: Nyitrai Gábor (NyitiG)*/

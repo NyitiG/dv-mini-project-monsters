@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js">
+
+    </script>
+    <title>Monsters ver. 1.0</title>
+  </head>
+  <body id="body">
+
+    <img id="logo" src="logo.svg" alt="monsters logo">
+
+    <h1>Monsters</h1>
+
+    <p>Create monsters</p>
+
+    <div id="create_monsters">
+
+        <img id="arrow_left" src="icons/arrow-left.svg" alt="vissza" onClick="left();">
+        <img id="elemental_icon" src="icons/fire.svg" alt="elemental">
+        <img id="arrow_right" src="icons/arrow-right.svg" alt="következő" onClick="right();">
+
+        <form  id="form1" name="create_monsters_name">
+            <input id="create_monsters_input" type="text" name="men" value="Name">
+
+
+        <img id="img_attack" src="icons/attack.svg" alt="at">
+          <input id="input_attack" type="number" name="man" min="0" max="99" value="3">
+
+        <img id="img_defense" src="icons/defense.svg" alt="def">
+          <input id="input_defense" type="number" name="mdn" min="0" max="99" value="3">
+
+        </form>
+
+        <button id="button001" type="button" name="button_add" onclick="addmonster();">Add</button>
+
+    </div>
+
+    <p>Monsters</p>
+
+    <form id="search">
+      <input id="monster_search" type="text" name="monster_search" value="" onkeyup="msearch();">
+    </form>
+
+    <div id="monster_list">
+
+    </div>
+
+
+
+  </body>
+</html>
+<!-- Készült: 2020.02.29
+ készítette: Nyitrai Gábor (NyitiG) -->
